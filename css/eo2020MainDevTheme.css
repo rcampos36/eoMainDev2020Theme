@@ -42,6 +42,17 @@
 /* ==========================================================================
    CUSTOM STYLE OVERIDES DEC. 2020
    ========================================================================== */
+#masterHeaderImage {
+  background-image: url(images/EO_Main_Logo.png);
+  background-repeat: no-repeat;
+  width: 266px;
+  height: 76px;
+  text-indent: -9999px;
+  overflow: hidden;
+  float: left;
+  margin-top: -5px;
+  background-position: 0 0px; }
+
 @media (min-width: 768px) {
   .header-top-container {
     height: 120px;
@@ -51,3 +62,58 @@
     left: 0;
     right: 0;
     z-index: 1100; } }
+
+@media (min-width: 768px) {
+  .header-bottom-container {
+    background-color: #fff;
+    min-height: 68px; }
+  .header-container {
+    margin-bottom: 5px; }
+  .container, .header-container, .SliderPage1 {
+    padding-top: 20px; } }
+
+@media (min-width: 768px) {
+  .RadMenu.RadMenu_NaturalHeritageSites .rmRootLink.rmSelected,
+  .RadMenu.RadMenu_NaturalHeritageSites .rmRootLink.rmExpanded,
+  .RadMenu.RadMenu_NaturalHeritageSites .rmRootLink:hover,
+  .RadMenu.RadMenu_NaturalHeritageSites .rmRootLink:focus,
+  .RadMenu.RadMenu_NaturalHeritageSites .rmRootLink.rmFocused {
+    border-top: 3px solid #ff3463; } }
+
+.RadMenu.RadMenu_NaturalHeritageSites .rmGroup {
+  background-color: #fff;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0px 0px 1px 0px #333; }
+
+.RadMenu_NaturalHeritageSites .rmSlide .rmLink,
+.RadMenu_NaturalHeritageSites .rmSlide .rsmLink {
+  color: #0d0d0d;
+  font-family: "AvertaStd", Arial, sans-serif;
+  font-size: 100% !important;
+  font-weight: normal; }
+
+.RadMenu_NaturalHeritageSites .rmSlide .rmLink:hover,
+.RadMenu_NaturalHeritageSites .rmSlide .rmLink:focus,
+.RadMenu_NaturalHeritageSites .rmSlide .rmLink.rmFocused,
+.RadMenu_NaturalHeritageSites .rmSlide .rsmLink:hover,
+.RadMenu_NaturalHeritageSites .rmSlide .rsmLink:focus,
+.RadMenu_NaturalHeritageSites .rmSlide .rsmLink.rmFocused,
+.RadMenu_NaturalHeritageSites .rmSlide .rsmTwoLevels > .rsmItem > .rsmLink:hover,
+.RadMenu_NaturalHeritageSites .rmSlide .rsmTwoLevels > .rsmItem > .rsmLink:focus,
+.RadMenu_NaturalHeritageSites .rmSlide .rsmTwoLevels > .rsmItem > .rsmLink.rmFocused {
+  background-color: transparent;
+  color: #ff3463; }
+
+.RadMenu_NaturalHeritageSites .rmSlide .rsmTwoLevels > .rsmItem > .rsmLink,
+.RadMenu_NaturalHeritageSites .rmSlide .rsmTwoLevels > .rsmItem.rsmDisabled > .rsmLink:hover,
+.RadMenu_NaturalHeritageSites .rmSlide .rsmTwoLevels > .rsmItem.rsmDisabled > .rsmLink:focus {
+  color: #0d0d0d; }
+
+.RadMenu.RadMenu_NaturalHeritageSites .rmRootGroup > .rmItem > .rmLink {
+  color: #0d0d0d;
+  font-family: "AvertaStd", Helvetica Neue, sans-serif;
+  font-size: 90%;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: capitalize; }
