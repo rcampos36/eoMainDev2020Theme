@@ -1,0 +1,27 @@
+{
+  "name": "eomaindev2020theme",
+  "version": "1.0.0",
+  "description": "custom css for new EO imis site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcampos36/eoMainDev2020Theme.git"
+  },
+  "author": "Media703",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rcampos36/eoMainDev2020Theme/issues"
+  },
+  "homepage": "https://github.com/rcampos36/eoMainDev2020Theme#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp-rename": "^2.0.0"
+  }
+}

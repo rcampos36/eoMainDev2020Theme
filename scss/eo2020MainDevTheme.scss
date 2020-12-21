@@ -1,0 +1,63 @@
+/* 
+==========================================================================
+   CUSTOM THEME VARIABLES
+========================================================================== 
+*/
+
+/* FONTS */
+
+@font-face {
+  font-family: 'advertaSTD-light';
+  src: url("fonts/AvertaStd-Light.otf");
+  src: url("fonts/AvertaStd-Light.otf?#iefix");
+}
+
+@font-face {
+  font-family: 'advertaSTD-bold';
+  src: url("fonts/AvertaStd-Bold.otf");
+  src: url("fonts/AvertaStd-Bold.otf?#iefix");
+}
+
+@font-face {
+  font-family: 'advertaSTD-regular';
+  src: url("fonts/AvertaStd-Regular.otf");
+  src: url("fonts/AvertaStd-Regular.otf?#iefix");
+}
+
+@font-face {
+  font-family: 'advertaSTD-semibold';
+  src: url("fonts/AvertaStd-Semibold.otf");
+  src: url("fonts/AvertaStd-Semibold.otf?#iefix");
+}
+
+/* COLORS */
+:root {
+  --eo-blue: #3239cb;
+  --eo-red: #ff3463;
+  --eo-light-red: #fea5bd;
+  --eo-pink: #f3836f;
+  --eo-yellow: #eecb48;
+  --eo-green: #31ab8e;
+  --eo-grey: #5e617d;
+  --eo-dark-blue: #0c0c31;
+  --eo-blue-purple: #a3a7e4;
+  --eo-white: #fff;
+  --eo-ghost-white: #f2f3f9;
+  --eo-light-grey: #f0f0f5;
+}
+
+/* ==========================================================================
+   CUSTOM STYLE OVERIDES DEC. 2020
+   ========================================================================== */
+
+@media (min-width: 768px){
+  .header-top-container {
+    height: 120px;
+    background: var(--eo-dark-blue);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1100;
+  }
+}
